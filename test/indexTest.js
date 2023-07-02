@@ -10,6 +10,6 @@ describe("my_list.html", () => {
     const errorHint =
       "Make sure you created a file called 'my_list.html' in the lab directory with your HTML document in it!";
 
-    expect(fileExists, errorHint).to.be.true;
+      expect(fileExists, errorHint).to.be.true;
   });
 });
